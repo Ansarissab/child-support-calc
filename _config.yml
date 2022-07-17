@@ -9,8 +9,16 @@ gems:
   - jekyll-feed
   - jekyll-redirect-from
 
+# defaults:
+#   - scope:
+#       path: 'res/css'
+#     values:
+#       css: true
+
+
 # Build settings
 markdown: kramdown
+# baseurl: http://127.0.0.1:4000
 # destination: /Users/joshuafraese/childsupportcalculator/website/public #outside the jekyll folder to avoid triggering the watch gulp task repeatedly
 keep_files: ['res','.git']
 
