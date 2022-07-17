@@ -1,0 +1,17 @@
+# Site settings
+title: Child Support Calculator
+email: admin@childsupportcalculator.ca
+twitter: childsupportca
+description: Child support calculator for Canada. Based on the Federal Child Support Guidelines.
+excerpt_separator: "\n"
+
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+
+# Build settings
+markdown: kramdown
+# destination: /Users/joshuafraese/childsupportcalculator/website/public #outside the jekyll folder to avoid triggering the watch gulp task repeatedly
+keep_files: ['res','.git']
+
+enforce_ssl: www.childsupportcalculator.ca

@@ -1,0 +1,237 @@
+- img: mcgurk-fraese-family-lawyers.png
+  url: https://www.mcgurk.ca/child-support-calculator/
+  title: Advanced Child Support Calculator
+  description: A child support calculator by McGurk Fraese Family Lawyers with automatic shared custody setoffs, tax analysis and spousal support calculations.
+  button: Child Support Calculator
+  region: Canada
+
+- img: department-justice-child-support.png
+  url: http://justice.gc.ca/eng/fl-df/child-enfant/index.html
+  title: Department of Justice Canada - Child Support Information
+  description: The Government of Canada's website for child support offers a wealth of information regarding child support law and how to properly calculate child support.
+  button: Department of Justice
+  region: Canada
+
+- img: federal-child-support-guide.png
+  url: http://www.justice.gc.ca/eng/rp-pr/fl-lf/child-enfant/guide/
+  title: Federal Child Support Guidelines Step-by-Step
+  description: The Department of Justice's step-by-step guide to the Federal Child Support Guidelines is a roadmap for developing your own child support claim.
+  button: Guidelines Step-by-Step
+  region: Canada
+
+- img: mcgurk-alberta-child-support-calculator.png
+  url: https://www.mcgurk.ca/alberta-child-support-calculator/
+  title: Alberta Child Support Calculator - Shared/Split Custody
+  description: An advanced child support calculator for Alberta capable of calculating support in shared and split custody arrangements.
+  button: Alberta Child Support Calculator
+  region: Alberta
+
+- img: alberta-maintenance-enforcement.jpg
+  url: https://justice.alberta.ca/programs_services/mep/Pages/default.aspx
+  title: Alberta Maintenance Enforcement
+  description: The Maintenance Enforcement Program is run by the Government of Alberta and assists with the collection of child support and spousal support payments.
+  button: Maintenance Enforcement
+  region: Alberta
+
+- img: law-central-alberta.png
+  url: http://www.lawcentralalberta.ca/en/learn/family-and-relationships/child-and-spousal-support
+  title: Law Central - Alberta
+  description: Law Central is a website created by the Legal Education Society of Alberta (LESA) and operates a guide to child and spousal support.
+  button: Law Central Alberta
+  region: Alberta  
+
+- img: mcgurk-fraese-family-lawyers.png
+  url: https://www.mcgurk.ca/child-support-calculator/
+  title: Shared/Split Custody Child Support Calculator
+  description: A Canada-wide child support calculator suitable for shared or split custody situations. Can also calculate spousal support.
+  button: Child Support Calculator
+  region: Ontario  
+
+- img: ontario-attorney-general.png
+  url: https://www.attorneygeneral.jus.gov.on.ca/english/family/divorce/support/
+  title: Ontario Attorney General - Child Support Information
+  description: The Attorney General of Ontario runs a website on family law issues including child support.
+  button: Ontario Attorney General
+  region: Ontario
+
+- img: cleo-ontario-child-support.png
+  url: http://www.cleo.on.ca/en/publications/childsupport
+  title: CLEO - Child Support
+  description: Continuing Legal Education Ontario (CLEO) has a very helpful FAQ on child support in Ontario.
+  button: Child Support FAQ
+  region: Ontario
+
+- img: british-columbia-child-support-calculator.png
+  url: https://www.mcgurk.ca/bc-child-support-calculator/
+  title: B.C. Child Support Calculator
+  description: Another child support calculator, but this one also does spousal support and calculations for shared custody situations.
+  button: B.C. Child Support Calculator
+  region: British Columbia
+
+- img: family-law-in-bc.png
+  url: http://www.familylaw.lss.bc.ca/resources/fact_sheets/child_support.php
+  title: BC Legal Services Society - Child Support Fact Sheet
+  description: The LSS of British Columbia has created this fact sheet on child support to answer many commmon questions.
+  button: B.C. Child Support FAQ
+  region: British Columbia
+
+- img: supreme-court-bc-child-support.png
+  url: http://www.supremecourtbc.ca/family-law/child-support
+  title: Supreme Court of B.C. - Child Support Guide
+  description: The Supreme Court of British Columbia offers a guide to child support law in the province.
+  button: Child Support Guide
+  region: British Columbia  
+
+- img: mcgurk-fraese-family-lawyers.png
+  url: https://www.mcgurk.ca/child-support-calculator/
+  title: Advanced Child Support Calculator
+  description: For more complicated situations involving shared custody or split custody, this advanced child support calculator can automatically calculate setoffs and tax consequences.
+  button: Child Support Calculator
+  region: Saskatchewan
+
+- img: saskatchewan-child-support-guidelines.png
+  url: http://www.justice.gov.sk.ca/child-support-guidelines
+  title: Saskatchewan Child Support Guidelines
+  description: Information on the Child Support Guidelines from the Government of Saskatchewan.
+  button: Saskatchewan Child Support
+  region: Saskatchewan  
+
+- img: manitoba-vary-child-support.png
+  url: https://www.gov.mb.ca/justice/family/law/changembsupportorder.html
+  title: Manitoba - Varying a Child Support Order
+  description: Manitoba Justice offers this guide to varying a child support order in Manitoba.
+  button: Manitoba Child Support Orders
+  region: Manitoba    
+
+- img: mcgurk-fraese-family-lawyers.png
+  url: https://www.mcgurk.ca/child-support-calculator/
+  title: Visual Child Support Calculator
+  description: A visual child support calculator with advanced features including shared/split custody, tax analysis and spousal support calculations.
+  button: Child Support Calculator
+  region: Yukon
+
+- img: yukon-maintenance-enforcement.png
+  url: http://www.yukonmep.ca/csguidelines.html
+  title: Yukon Mainteance Enforcement Program
+  description: The Yukon Mainteance Enforcement Program (MEP) educates on child support issues and assists with collection of child support and spousal support in the Yukon Territory.
+  button: Yukon MEP
+  region: Yukon  
+
+- img: mcgurk-fraese-family-lawyers.png
+  url: https://www.mcgurk.ca/child-support-calculator/
+  title: Shared/Split Custody Child Support Calculator
+  description: This child support calculator can calculate child support for couples with shared or split parenting arrangements.
+  button: Child Support Calculator
+  region: Quebec
+
+- img: educaloi-child-support-quebec.png
+  url: https://www.educaloi.qc.ca/en/capsules/calculating-child-support-quebec
+  title: Calculating Child Support in Quebec
+  description: Educaloi, Quebec's legal information and education organization, offers this guide to calculating child support in Quebec.
+  button: Calculating Child Support in Quebec
+  region: Quebec
+
+- img: revenu-quebec-support-payments.png
+  url: http://www.revenuquebec.ca/en/pensionsalimentaires/default.aspx
+  title: Revenu Quebec - Support Payments
+  description: Revenu Quebec assists with the collection of child support payments and other support payments in the Province of Quebec.
+  button: Revenu Quebec - Child Support
+  region: Quebec
+
+- img: mcgurk-fraese-family-lawyers.png
+  url: https://www.mcgurk.ca/child-support-calculator/
+  title: Shared Custody Child Support Calculator
+  description: Calculate shared custody child support and more using this advanced child support calculator.
+  button: Child Support Calculator
+  region: New Brunswick
+
+- img: family-law-nb.png
+  url: http://www.familylawnb.ca/english/faqs_child_support
+  title: Family Law NB
+  description: A legal information website devoted to family law in New Brunswick. Includes information about New Brunswick child support claims.
+  button: Family Law NB
+  region: New Brunswick
+
+- img: mcgurk-fraese-family-lawyers.png
+  url: https://www.mcgurk.ca/child-support-calculator/
+  title: Complex Child Support Calculator
+  description: For more complex child support calculations with children living in both homes (shared custody), try this child support calculator.
+  button: Child Support Calculator
+  region: Newfoundland & Labrador
+
+- img: newfoundland-and-labrador-child-support.png
+  url: http://www.court.nl.ca/supreme/family/child_support.html
+  title: Supreme Court of Newfoundland and Labrador
+  description: The Supreme Court website offers detailed information on child support claims in the province of Newfoundland and Labrador.
+  button: Supreme Court of Newfoundland and Labrador
+  region: Newfoundland & Labrador
+
+- img: newfoundland-support-enforcement-program.png
+  url: http://www.justice.gov.nl.ca/just/childsupport/support_enforcement.html
+  title: Newfoundland & Labrador Support Enforcement Program
+  description: How does one collect child support? In Newfoundland & Labrador there is the Support Enforcement Program, a government agency offering assistance in enforcing support orders and collecting payments.
+  button: Support Enforcement Program
+  region: Newfoundland & Labrador
+
+- img: mcgurk-fraese-family-lawyers.png
+  url: https://www.mcgurk.ca/child-support-calculator/
+  title: Child Support Calculator (Shared/Split Custody)
+  description: Child support is more complex where children live with both parents (shared custody) or where there are different custody arrangements for each child.
+  button: Child Support Calculator
+  region: Nova Scotia
+
+- img: family-law-nova-scotia.png
+  url: http://www.nsfamilylaw.ca/child-support/general-information-child-support
+  title: Family Law Nova Scotia - General Information on Child Support
+  description: Family Law Nova Scotia is a non-profit website dedicated to providing the public with family law information. Their guide to child support in Nova Scotia is extremely helpful.
+  button: Family Law Nova Scotia
+  region: Nova Scotia
+
+- img: legal-information-nova-scotia.png
+  url: http://www.legalinfo.org/family-law/child-support.html
+  title: Legal Information Society of Nova Scotia - Child Support Guide
+  description: The Legal Information Society of Nova Scotia has put together a helpful guide to child support in the province of Nova Scotia.
+  button: Nova Scotia Child Support
+  region: Nova Scotia
+
+- img: mcgurk-fraese-family-lawyers.png
+  url: https://www.mcgurk.ca/child-support-calculator/
+  title: Child Support Calculator
+  description: A sophisticated child support calculator for calculating support in shared or split custody scenarios. The calculator also calculates estimates of tax and spousal support.
+  button: Child Support Calculator
+  region: Prince Edward Island
+
+- img: pei-child-support-guidelines-office.png
+  url: http://www.gov.pe.ca/jps/index.php3?number=80214&lang=E
+  title: Child Support Guidelines Office
+  description: The Prince Edward Island Child Support Guidelines Office assists with making, enforcing and collecting on child support claims.
+  button: Child Support Guidelines Office
+  region: Prince Edward Island
+
+- img: mcgurk-fraese-family-lawyers.png
+  url: https://www.mcgurk.ca/child-support-calculator/
+  title: Child Support Calculator for Canada
+  description: A child support calculator with more advanced features including shared and split custody, as well as spousal support. Works for the NWT as well as other Canadian provinces.
+  button: Child Support Calculator
+  region: Northwest Territories
+
+- img: nwt-maintenance-enforcement-program.png
+  url: https://www.justice.gov.nt.ca/en/support-order-enforcement/
+  title: Maintenance Enforcement Program - Northwest Territories
+  description: The Northwest Territories Maintenance Enforcement Program is responsible for enforcing and collecting child support in the Northwest Territories.
+  button: NWT Maintenance Enforcement Program
+  region: Northwest Territories
+
+- img: mcgurk-fraese-family-lawyers.png
+  url: https://www.mcgurk.ca/child-support-calculator/
+  title: Child Support Calculator
+  description: Child support calculator for families with split custody and shared custody. You can also use it to calculate spousal support.
+  button: Child Support Calculator
+  region: Nunavut
+
+- img: nunavut-family-services.png
+  url: http://www.gov.nu.ca/programs/family-services
+  title: Nunavut Family Services
+  description: The Territory of Nunavut Family Services Department can assist with the collection and enforcement of child support orders in Nunavut.
+  button: Nunavut Family Services
+  region: Nunavut

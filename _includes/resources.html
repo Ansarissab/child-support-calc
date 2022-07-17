@@ -1,0 +1,19 @@
+
+<!-- Resources -->
+    <div class="docs-section examples" id="resources">
+      <h6 class="docs-header">{{ page.calculator.region }} Child Support Resources</h6>
+      {% for resource in site.data.resources %}
+        {% if resource.region == page.calculator.region %}
+        <div class="row example">
+          <a class="example-screenshot-wrapper" target="_new" href="examples/landing">
+            <img src="{{ site.url }}{{ site.baseurl }}res/img/caps/{{ resource.img }}">
+          </a>
+          <div class="one-half offset-by-one-half column">
+            <h6 class="example-header">{{ resource.title }}</h6>
+            <p class="example-description">{{ resource.description }}</p>
+            <a class="button" href="{{ resource.url }}" target="_new">{{ resource.button }}</a>
+          </div>
+        </div>   
+        {% endif %}
+      {% endfor %}
+    </div>

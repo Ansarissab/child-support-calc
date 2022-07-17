@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Calculate Child Support | ChildSupportCalculator.ca</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="res/css/normalize.css">
+  <link rel="stylesheet" href="res/css/skeleton.css">
+  <link rel="stylesheet" href="res/css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}res/js/site.js"></script>  
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+  <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="{{ site.url }}{{ site.baseurl }}"><img src="{{ site.url }}{{ site.baseurl }}favicon-32x32.png" style="margin-right:20px;vertical-align: middle;position:relative;margin-top:-5px">Child Support Calculator</a></li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#" data-popover="#codeNavPopover">Provinces</a>
+            <div id="codeNavPopover" class="popover">
+              <ul class="popover-list">
+                <li class="popover-item">
+                  <a class="popover-link" href="{{ site.url }}{{ site.baseurl }}ontario.html">Ontario</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="{{ site.url }}{{ site.baseurl }}alberta.html">Alberta</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="{{ site.url }}{{ site.baseurl }}british-columbia.html">British Columbia</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="{{ site.url }}{{ site.baseurl }}saskatchewan.html">Saskatchewan</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="{{ site.url }}{{ site.baseurl }}manitoba.html">Manitoba</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="{{ site.url }}{{ site.baseurl }}quebec.html">Quebec</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="{{ site.url }}{{ site.baseurl }}newfoundland-&-labrador.html">Newfoundland &amp; Labrador</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="{{ site.url }}{{ site.baseurl }}nova-scotia.html">Nova Scotia</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="{{ site.url }}{{ site.baseurl }}prince-edward-island.html">Prince Edward Island</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="{{ site.url }}{{ site.baseurl }}northwest-territories.html">Northwest Territories</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="{{ site.url }}{{ site.baseurl }}nunavut.html">Nunavut</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="{{ site.url }}{{ site.baseurl }}yukon.html">Yukon</a>
+                </li>                
+              </ul>
+            </div>
+          </li>
+          <li class="navbar-item"><a class="navbar-link" href="embed.html">Embed!</a></li>
+      </div>
+    </nav>
+    <div class="navbar-spacer"></div>

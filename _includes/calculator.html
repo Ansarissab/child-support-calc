@@ -1,0 +1,60 @@
+<!-- Child Support Calculator -->
+    <div class="docs-section" id="calculator-head" style="padding-bottom: 20px">
+      <h6 class="docs-header">{% if page.calculator.region != "Canada" %}{{ page.calculator.region }}{% endif %} Child Support Calculator</h6>
+      <p>{{ page.calculator.description }}</p>
+      <div id="calculator" class="docs-example docs-example-forms">
+        <form id="calc">
+          <div class="row">
+            <div class="four columns">
+              <label for="exampleEmailInput">Income</label>
+              <input class="u-full-width" type="number" placeholder="80000" name="income1" style="padding:7px;">
+            </div>
+            {% if page.calculator.region == "Canada" %}
+              <div class="four columns">
+                <label for="exampleRecipientInput">Residence</label>
+                <select class="u-full-width" name="residence1">
+                  <option selected="selected" value="-1">&ndash;Select&ndash;</option>
+                  <option value="Alberta">Alberta</option>
+                  <option value="British Columbia">British Columbia</option>
+                  <option value="Manitoba">Manitoba</option>
+                  <option value="New Brunswick">New Brunswick</option>
+                  <option value="Newfoundland & Labrador">Newfoundland &amp; Labrador</option>
+                  <option value="Northwest Territories">Northwest Territories</option>
+                  <option value="Nova Scotia">Nova Scotia</option><option value="Nunavut">Nunavut</option>
+                  <option value="Ontario">Ontario</option>
+                  <option value="Prince Edward Island">Prince Edward Island</option>
+                  <option value="Quebec">Quebec</option>
+                  <option value="Saskatchewan">Saskatchewan</option>
+                  <option value="Yukon">Yukon</option>
+                </select>
+              </div>
+            {% else %}
+              <input type="hidden" name="residence1" value="{{ page.calculator.region | downcase }}"></input>  
+            {% endif %}
+            <div class="four columns">
+              <label for="exampleRecipientInput">Children</label>
+                <select class="u-full-width" name="cscchildren">
+                  <option selected="selected" value="-1">&ndash;Select&ndash;</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6+</option>
+                </select>
+            </div>
+          </div>
+          {% if page.calculator.region != "Canada" %}<input type="hidden" name="residence1" value="{{ page.calculator.region }}">{% endif %}
+          <input type="hidden" name="spousal" value="no"></input>  
+          <input type="hidden" name="haschildren" value="yes"></input>
+          <div>
+            <div id="calc_result" style="display:none;border-top:1px solid #808080; border-bottom:1px solid #808080; padding:20px;margin-bottom:20px;background-color:#33C3F0;color:white;height:100px;"></div>
+          </div>          
+          <div>
+            <input class="button-primary" type="submit" value="Calculate" id="calc_button"></input>
+          </div>
+        </form>
+        <iframe id=calculatorFrame style=display:none src=http://support-calculator.herokuapp.com/calculatorFrame></iframe>        
+      </div>
+      {{ page.calculator.text }}
+    </div>
