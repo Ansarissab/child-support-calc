@@ -22,4 +22,5 @@ markdown: kramdown
 # destination: /Users/joshuafraese/childsupportcalculator/website/public #outside the jekyll folder to avoid triggering the watch gulp task repeatedly
 keep_files: ['res','.git']
 baseurl: /
+url: ''
 enforce_ssl: www.childsupportcalculator.ca
