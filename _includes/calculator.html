@@ -29,7 +29,7 @@
                 </select>
               </div>
             {% else %}
-              <input type="hidden" name="residence1" value="{{ page.calculator.region | downcase }}"></input>  
+              <input type="hidden" name="residence1" value="{{ page.calculator.region | downcase }}"></input>
             {% endif %}
             <div class="four columns">
               <label for="exampleRecipientInput">Children</label>
@@ -45,16 +45,16 @@
             </div>
           </div>
           {% if page.calculator.region != "Canada" %}<input type="hidden" name="residence1" value="{{ page.calculator.region }}">{% endif %}
-          <input type="hidden" name="spousal" value="no"></input>  
+          <input type="hidden" name="spousal" value="no"></input>
           <input type="hidden" name="haschildren" value="yes"></input>
           <div>
             <div id="calc_result" style="display:none;border-top:1px solid #808080; border-bottom:1px solid #808080; padding:20px;margin-bottom:20px;background-color:#33C3F0;color:white;height:100px;"></div>
-          </div>          
+          </div>
           <div>
             <input class="button-primary" type="submit" value="Calculate" id="calc_button"></input>
           </div>
         </form>
-        <iframe id=calculatorFrame style=display:none src=http://support-calculator.herokuapp.com/calculatorFrame></iframe>        
+        <iframe id=calculatorFrame style=display:none src=https://support-calculator.herokuapp.com/calculatorFrame></iframe>
       </div>
       {{ page.calculator.text }}
     </div>
