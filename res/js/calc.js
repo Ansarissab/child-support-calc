@@ -1,4 +1,4 @@
-( 
+(
 
   function($) {
 
@@ -23,7 +23,7 @@
       frmParent.find('input[name=cscchildren]').focus();
       return false;
     }
-    
+
   frmParent.find('input:text').each(function() {
       $(this).attr('value', $(this).val());
   });
@@ -33,8 +33,8 @@
   window.addEventListener('message', function(result) { $(this).showResults(result.data); }, false);
 
 //    var data = frmParent.serialize();
-    
-//    data = 'url=http://mpi.childsupportcalculator.ca/calc.php&method=post&params=' + encodeURIComponent(data);
+
+//    data = 'url=https://mpi.childsupportcalculator.ca/calc.php&method=post&params=' + encodeURIComponent(data);
 //alert(data);
     var btnSubmit = $(this).find('input[type=submit]');
     var btnValue = $(btnSubmit).val();
@@ -49,25 +49,25 @@
   $.fn.showResults = function(result){
     json = JSON.parse(result);
     var frmParent = $('#calc');
-    var btnSubmit = frmParent.find('input[type=submit]');    
+    var btnSubmit = frmParent.find('input[type=submit]');
     if (json.childsupport['@monthly_child_support'] == false)
     {
       alert('An error occured while calculating.');
       //$(btnSubmit).val(btnValue);
       frmParent.find('#calc_result').html('');
       $(btnSubmit).attr('disabled', false);
-      return false; 
+      return false;
     }
     frmParent.find('#calc_result').html('The child support amount would be <span>$' + json.childsupport['@monthly_child_support'] + '</span> a month.');
     //frmParent.find('#calc_notice').html('Use this calculator to calculate your payments amounts.');
     $(btnSubmit).attr('disabled', false);
   };
-  
+
   $('#calc').bind('submit', function(e){
     $(this).doCalc(e);
     return false;
   });
-  
+
   //$('.frmCalc').bind('submit', function(e){
   //  $(this).doCalc(e);
   //  return false;
