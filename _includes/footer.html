@@ -4,6 +4,10 @@
           &#169;&nbsp;2017&nbsp;Childsupportcalculator.ca | <a href="terms.html">Terms&nbsp;of&nbsp;Use</a> | <a href="privacy.html">Privacy&nbsp;Policy</a> | <a href="contact.html">Contact</a> | <a href="sitemap.html">Sitemap</a>
           <p/><p/>
 		  <a style="float:left" href="https://twitter.com/share" class="twitter-share-button" data-via="childsupportca" data-size="large">Tweet</a>
+
+      {% if page.script  %}
+        <script data-cfasync="false" src="{{ page.script }}"></script>
+      {% endif %}
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^https:/.test(d.location)?'https':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 	          <div class="fb-like" data-href="https://www.childsupportcalculator.ca" data-width="200" data-layout="box_count" data-action="recommend" data-show-faces="true" data-share="true" ></div>
