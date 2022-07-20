@@ -5,7 +5,7 @@
       {% for resource in site.data.resources %}
         {% if resource.region == page.calculator.region %}
         <div class="row example">
-          <a class="example-screenshot-wrapper" target="_new" href="examples/landing">
+          <a class="example-screenshot-wrapper" target="_new" href="{{ resource.url }}">
             <img src="res/img/caps/{{ resource.img }}">
           </a>
           <div class="one-half offset-by-one-half column">

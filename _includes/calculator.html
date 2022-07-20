@@ -7,7 +7,7 @@
           <div class="row">
             <div class="four columns">
               <label for="exampleEmailInput">Income</label>
-              <input class="u-full-width" type="number" placeholder="80000" name="income1" style="padding:7px;">
+              <input class="u-full-width" type="number" placeholder="80000" pattern="[0-9]*" name="income1" style="padding:7px;">
             </div>
             {% if page.calculator.region == "Canada" %}
               <div class="four columns">
