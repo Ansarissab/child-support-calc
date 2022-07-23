@@ -5,16 +5,18 @@
 <!-- Tagged posts -->
   {% if post.region == page.calculator.region %}
     {% assign post_count = post_count | plus:1 %}
-  <div class="media">
-      <div class="media-body">
-        <div style="font: italic .8em proxima-nova, sans-serif; padding-bottom:10px;">{{ post.date | date: '%B %d, %Y' }}</div>
-        <a href="{{ post.url }}"><h4 class="media-heading">{{ post.title }}</h4></a>
-        <p>{{ post.description }}
-        <span style="font-style:italic"><a href-"{{ post.url }}">Read More...</a></span>
-        </p>
+    {% if post_count <= 5 %}
+      <div class="media">
+        <div class="media-body">
+          <div style="font: italic .8em proxima-nova, sans-serif; padding-bottom:10px;">{{ post.date | date: '%B %d, %Y' }}</div>
+          <a href="{{ post.url }}"><h4 class="media-heading">{{ post.title }}</h4></a>
+          <p>{{ post.description }}
+          <span style="font-style:italic"><a href-"{{ post.url }}">Read More...</a></span>
+          </p>
+        </div>
       </div>
-    </div>
-    <hr/>
+      <hr/>
+    {% endif %}
   {% endif %}
 {% endfor %}
 
