@@ -1,0 +1,13 @@
+
+{% if page.next %}
+  <hr/>
+  <h4>Next Article</h4>
+  <div class="media">
+    <div class="media-body">
+      <div style="font: italic .8em proxima-nova, sans-serif; padding-bottom:10px;">{{ page.next.date | date: '%B %d, %Y' }}</div>
+      <a href="{{ page.next.url }}"><h4 class="media-heading">{{ page.next.title }}</h4></a>
+      <p>{{ page.next.description }}
+      </p>
+    </div>
+  </div>
+{% endif %}
